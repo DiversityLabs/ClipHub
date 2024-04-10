@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "lucide-react": "^0.366.0",
+    "pino": "^8.20.0",
+    "pino-http": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "name": "be",
+  "version": "0.1.1",
+  "description": "Backend for ClipHub",
+  "author": "ilhamjaya08 <m.ilhamjaya1808@gmail.com>",
+  "keywords": [
+    "backend",
+    "cliphub",
+    "music",
+    "media",
+    "social media"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/diversitylabs/cliphub"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
